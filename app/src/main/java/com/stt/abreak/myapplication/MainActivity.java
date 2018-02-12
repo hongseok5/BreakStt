@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         public void run(){
 
             try {
-                int port = 10001;
+                int port = 11001;
                 Socket sock = new Socket(hostname, port);
                 ObjectOutputStream outputStream =
                         new ObjectOutputStream(sock.getOutputStream());
